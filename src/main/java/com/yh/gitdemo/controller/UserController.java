@@ -6,18 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Author ztyh
  * @Description TODO
- * @Date 2022/8/15 23:24
+ * @Date 2022/8/15 23:35
  */
 @RestController
-public class IndexController {
+public class UserController {
 
-    @GetMapping("/index")
-    public String index() {
-        return "Hello World";
-    }
-
-    @GetMapping("/test")
-    public String test() {
-        return "test git";
+    @GetMapping("/findAll")
+    public String queryUsers() {
+        return "Users Json Date";
     }
 }
