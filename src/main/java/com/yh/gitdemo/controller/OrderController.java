@@ -20,4 +20,9 @@ public class OrderController {
     public String saveOrder(int id) {
         return "saveOrder";
     }
+
+    @GetMapping("/getOrderByIds")
+    public String getOrderByIds(List<Integer> ids) {
+        return "Order by ids";
+    }
 }
