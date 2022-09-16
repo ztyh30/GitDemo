@@ -3,6 +3,7 @@ package com.yh.gitdemo.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -26,5 +27,10 @@ public class OrderController {
     @GetMapping("/getOrderByIds")
     public String getOrderByIds(List<Integer> ids) {
         return "Order by ids";
+    }
+
+    public List<String> getOrderList() {
+        List<String> list = new ArrayList<>();
+        return list;
     }
 }
