@@ -15,4 +15,9 @@ public class OrderController {
     public String getOrderByName(String name) {
         return "Order by name";
     }
+    
+    @GetMapping("/getOrderByIds")
+    public String getOrderByIds(List<Integer> ids) {
+        return "Order by ids";
+    }
 }
