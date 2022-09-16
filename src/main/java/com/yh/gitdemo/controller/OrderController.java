@@ -27,4 +27,8 @@ public class OrderController {
     public String getOrderByIds(List<Integer> ids) {
         return "Order by ids";
     }
+    
+    public String orderUtil() {
+        return "Order工具类";
+    }
 }
