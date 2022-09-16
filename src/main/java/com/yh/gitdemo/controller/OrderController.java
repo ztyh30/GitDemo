@@ -29,6 +29,10 @@ public class OrderController {
         return "Order by ids";
     }
 
+    public String orderUtil() {
+        return "Order工具类";
+    }
+
     public List<String> getOrderList() {
         List<String> list = new ArrayList<>();
         return list;
