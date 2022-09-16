@@ -8,4 +8,8 @@ public class BaseController {
     public String baseController() {
         return "base controller";
     }
+    
+    public String getData() {
+        return "Data data data";
+    }
 }
