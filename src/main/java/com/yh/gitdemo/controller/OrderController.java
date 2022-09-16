@@ -10,4 +10,9 @@ public class OrderController {
     public String getOrder(int orderId) {
         return "Order";
     }
+    
+    @GetMapping("/getOrderByName")
+    public String getOrderByName(String name) {
+        return "Order by name";
+    }
 }
