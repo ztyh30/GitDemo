@@ -15,4 +15,9 @@ public class OrderController {
     public String getOrderByName(String name) {
         return "Order by name";
     }
+
+    @GetMapping("/saveOrder")
+    public String saveOrder(int id) {
+        return "saveOrder";
+    }
 }
